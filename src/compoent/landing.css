@@ -1,0 +1,132 @@
+.App {
+    text-align: center;
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebe3e3;
+    margin: 20px 10px;
+    border-radius: 50%;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.copyright {
+    color: #5656ff;
+    font-size: 15px;
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+    transform: translateX(-50%);
+}
+
+.social-icons i {
+    color: #000000;
+}
+
+.social-icons a:hover,
+.a-social-b a:hover {
+    background-color: #000000;
+    box-shadow: 2px, 2px, 12px rgba(0, 0, 0, 0.2);
+    transition: all ease 0.5s;
+}
+
+.social-icons a:hover i,
+.a-social-b a:hover i {
+    color: #fff;
+    transition: all ease 0.5s;
+}
+
+.a-social-b {
+    position: fixed;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+.a-social-b a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    padding: 0px;
+    margin: 0px;
+    line-height: 0px;
+    background-color: #fff;
+    border: 1px solid #cbcbcb;
+    box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.a-social-b i {
+    color: #2b2b2b;
+    font-size: 20px;
+}
+
+.fully-cover {
+    justify-items: auto;
+}
+
+
+/* .App h2 {
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+} */
+
+
+/* .fully-cover { */
+
+
+/* position: relative;
+    text-decoration: none;
+    text-align: left;
+    color: white
+} */
+
+.app {
+    position: absolute;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 40px;
+    text-transform: uppercase;
+    color: #fff;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+}
+
+.app1 {
+    position: absolute;
+    text-decoration: none;
+    font-size: 30px;
+    top: 40%;
+    left: 40%;
+    color: rgb(175, 180, 179);
+    transform: translate(-50%, -50%);
+}
+
+.App-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.slides .slick-prev,
+.slides .slick-next {
+    position: absolute;
+    /* top: 50%; */
+    z-index: 1;
+}
